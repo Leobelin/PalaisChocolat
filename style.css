@@ -56,7 +56,7 @@ a {
     width: 15%;
 }
 
-.bouton {
+.bouton{
     padding: 12px 25px;
     background-color: #f3c784;
     color: #350e07;
@@ -65,22 +65,36 @@ a {
 
 .carte {
     width: 300px;
-    margin-top: 32px;
-    padding: 8px;
+    margin-top:30px;
+    padding:10px;
     border-radius: 16px;
-    box-shadow: 4px 4px 12px hsla(0,0%,0%,0.379);
+    box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+    background-color: white;
 }
 
-.carte img{width:100%;
+.carte h2{
+    margin-bottom: 20px;
+}
+
+.carte img {
+    width: 100%;
     border-radius: 15px;
+    margin-top: 20px;
 }
-#produits{
-    padding: 0% 10%;
+
+#produits {
+    padding: 0 10%;
 }
-#content{
-    display:flex;
+
+#content {
+    padding: 16px;
+    display: flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #543111;
+    background:linear-gradient(#FFC55A,#7f4f39)
 }
+.footer{
+    background:linear-gradient(#FFC55A,#7f4f39)
+}
+

@@ -26,6 +26,7 @@ function addgateaux(tableauRealisations) {
         <h2>${realisations.nom} </h2>
         <p>${realisations.description}</p>
         <img src="${realisations.image}">
-       </div>
+        <a href="" class="bouton">Acheté</a>
+        </div>
         `
     })}
