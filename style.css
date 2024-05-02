@@ -94,3 +94,81 @@ a {
     flex-wrap: wrap;
     background: linear-gradient(#FFC55A, #7f4f39)
 }
+
+#temoignages {
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7f4f39;
+}
+
+.avis {
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+    background-color: white;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #f0ffff94;
+    padding: 10px;
+    color: #673a1f;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#listeBenefficesClients {
+    padding: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7f4f39;
+}
+
+.bene {
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rosybrown
+}
+
+#map {
+    height: 200px;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer ul {
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.contact {
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+
+}
+img {
+    width: 150px;
+}
