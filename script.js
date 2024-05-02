@@ -49,7 +49,7 @@ function addavis(tableauTemoignages) {
     <h3>${temoignages.prenom} </h3>
     <p>${temoignages.typePrestation}</p>
     <p>${temoignages.commentaire}</p>
-    <p> note: ${temoignages.note}</p>
+    <p> note: ${avis(temoignages.note)}</p>
     </div>
     `})
 }
@@ -81,3 +81,14 @@ L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 L.marker([47.22575885581474, -1.5517634805755953]).addTo(map)
     .bindPopup("<h1>Le Palais Du Chocolat</h1><p>35 Rue des Gobelets Nantes 44200</p>")
     .openPopup();5
+
+    function avis(note){
+        let chaine=""
+        for (let i=1; i<=note; i++){
+        chaine+="★"
+        }
+        for(let j=0; j<5-note;j++){
+          chaine+="☆"
+        }
+        return chaine
+      }

@@ -172,3 +172,6 @@ footer ul {
 img {
     width: 150px;
 }
+.container {
+    max-width: 100px;
+}
